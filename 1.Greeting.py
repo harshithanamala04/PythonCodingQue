@@ -2,4 +2,6 @@
 # Example: if the input is Maya, print Hello, Maya!
 
 name = input("Enter Your name:")
-print("Hello", name)
+print("Hello,", name)
+
+print(f"Hello, {name}")
