@@ -3,7 +3,7 @@
 
 n = int(input("Enter how many u want to sum:"))
 nums = list(map(int,input("Enter numbers:").split()))[:n]
-sum = 0
+total = 0
 for num in nums:
-    sum += num
-print(sum)
+    total += num
+print(total)

@@ -9,7 +9,9 @@ cnt = 0
 nums.sort()
 
 for num in nums:
-    if num <= target:
-        if num == target:
-            cnt += 1
+    if num == target:
+        cnt += 1
+    elif num > target:
+        break # no need to look at the rest of ele
+          
 print(cnt)
