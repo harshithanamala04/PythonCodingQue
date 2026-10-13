@@ -14,5 +14,7 @@ for num in nums:
 
 print(unique_nums)
 
+# You can also do by removing set but when you do like  that TC Increases to O(N^2)
+# A set makes those checks faster on average, but your list-only version is perfectly valid for learning and smaller inputs.
 
 
