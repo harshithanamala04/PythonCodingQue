@@ -4,9 +4,16 @@
 n = int(input("Enter how many you want:"))
 nums = list(map(int,input("Enter numbers:").split()))[:n]
 
-nums_sort = sorted(nums)
+# nums_sort = sorted(nums)
 
-if nums == nums_sort:
-    print("Sorted")
+# if nums == nums_sort:
+#     print("Sorted")
+# else:
+#     print("Not Sorted")
+
+for i in range(len(nums)-1):
+    if nums[i] > nums[i + 1]:
+        print("Not sorted")
+        break
 else:
-    print("Not Sorted")
+    print("Sorted")
