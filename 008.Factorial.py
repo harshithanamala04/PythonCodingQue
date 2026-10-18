@@ -16,9 +16,3 @@ print(prod)
 # print(fact(num))
 
 # Point to remember when using recursion use base case then followed by recursive case..
-
-n = int(input("enter number:"))
-prod = 1
-for i in range(n,1,-1):
-    prod *= i
-print(prod)
