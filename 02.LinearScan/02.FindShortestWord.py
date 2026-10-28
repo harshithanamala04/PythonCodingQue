@@ -4,3 +4,6 @@
 
 sen = input("Enter Sentence:")
 sen_list = sen.split()
+
+shortest_word = min(sen_list, key = len)
+print(shortest_word)
