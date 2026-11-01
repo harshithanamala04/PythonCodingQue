@@ -1,0 +1,2 @@
+# Find the largest container: Given a list of nonnegative heights, find the maximum area between two lines.
+# The area is the distance between their indices times the smaller height. Example: [1, 8, 6, 2, 5] → 16.
