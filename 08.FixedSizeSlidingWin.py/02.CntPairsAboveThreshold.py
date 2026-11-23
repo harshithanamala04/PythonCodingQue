@@ -15,8 +15,9 @@ if len(nums) >= win_size and pair_sum > th:
 
 
 for right in range(win_size, len(nums)):
+    pair_sum += nums[right] - nums[right - win_size]
+
     if pair_sum > th:
         cnt += 1
-    pair_sum += nums[right] - nums[right - win_size]
 
 print(cnt)
